@@ -17,17 +17,16 @@
         if(isset($_POST['fatorial'])){
             $numero = $_POST['numero'];
             $array = [];
+            $fatorial = 1;
 
             for ($i = 1; $i <= $numero; $i++) {
                 
-                $resultado = $i * $numero;
-
-                echo "$i * $numero = $resultado <br>";
-                
-
+                $fatorial *= $i;
             }
-        }
 
+            echo "O resultado da fatorial de $numero é $fatorial <br>";
+
+        }
     }
 
     ?>
