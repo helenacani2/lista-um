@@ -18,9 +18,11 @@
             $numero = $_POST['numero'];
             $array = [];
 
-            for ($i = $numero; $i <= 1; $i--) {
+            for ($i = 1; $i <= $numero; $i++) {
                 
+                $resultado = $i * $numero;
 
+                echo "$i * $numero = $resultado <br>";
                 
 
             }
