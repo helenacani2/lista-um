@@ -42,9 +42,6 @@
                     }
                 }
             $soma2 = array_sum($divisor2);
-
-            echo "$soma1 <br>";
-            echo "$soma2 <br>";
         }
 
         if ($numero1 == $soma2 and $numero2 == $soma1){
