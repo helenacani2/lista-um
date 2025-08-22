@@ -45,9 +45,9 @@
         }
 
         if ($numero1 == $soma2 and $numero2 == $soma1){
-            echo "Os números são amigos! <br>";
+            echo "Os números <strong>são</strong> amigos! <br>";
         } else {
-            echo "Os números não são amigos! <br>";
+            echo "Os números <strong>não são</strong> amigos! <br>";
         }
 
     }
