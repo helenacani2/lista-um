@@ -19,7 +19,7 @@
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['fibonacci'])) {
             
-            echo "socorro";
+            echo "socorro não consegui";
             }
         }
     ?>
