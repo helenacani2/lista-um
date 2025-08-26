@@ -9,7 +9,7 @@
 
 <body>
     <form method="POST" action="">
-        <label for="numero1">Digite o primeiro número:</label>
+        <label for="numero1">Digite um número:</label>
         <input type="number" id="numero1" name="numero1" required>
 
         <br>
