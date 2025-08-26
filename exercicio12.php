@@ -26,7 +26,7 @@
             }
             }
 
-            echo "O texto '$texto' tem $contador vogais!!! yippiee";;
+            echo "O texto '$texto' tem $contador vogais!!! yippiee";
 
         }
     ?>
