@@ -24,32 +24,31 @@
             $numero1 = $_POST['numero1'];
             $numero2 = $_POST['numero2'];
 
-            $divisor1 = [];
+            $entre = [];
+            $entre_numeros = 0;
+            $soma = 0;
             
-                for ($i = 1; $i < $numero1; $i++) {
-                    if ($numero1 % $i == 0) {
-                        $divisor1[] = $i;
+                if ($numero1 > $numero2) {
+                    for ($i = $numero2 + 1; $i < $numero1; $i++) {
+                    $entre[] = $i;
                     }
+                } else {
+                    for ($i = $numero1 + 1; $i < $numero2; $i++) {
+                    $entre[] = $i;
+                }
                 }
 
-            $soma1 = array_sum($divisor1);
+                $soma = array_sum($entre);
 
-            $divisor2 = [];
-            
-                for ($i = 1; $i < $numero2; $i++) {
-                    if ($numero2 % $i == 0) {
-                        $divisor2[] = $i;
-                    }
-                }
-            $soma2 = array_sum($divisor2);
+        echo "Os números entre $numero1 e $numero2 são: <br>";
+        foreach ($entre as $entre_numeros) {
+        echo $entre_numeros . "<br>"; 
         }
 
-        if ($numero1 == $soma2 and $numero2 == $soma1){
-            echo "Os números <strong>são</strong> amigos! <br>";
-        } else {
-            echo "Os números <strong>não são</strong> amigos! <br>";
-        }
-
+        echo "E a soma deles são: ";
+        echo "$soma";
+    
+    }
     }
     ?>
 </body>
