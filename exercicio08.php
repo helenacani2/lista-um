@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 8 - Números pares</title>
+    <title>Exercício 8 - Números pares </title>
 </head>
 
 <body>

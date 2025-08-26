@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 6 - Divisores</title>
+    <title>Exercício 6 - Divisores </title>
 </head>
 <body>
     <form method="POST" action="">

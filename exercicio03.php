@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 3 -  Informar se um número é positivo, negativo ou zero</title>
+    <title>Exercício 3 -  Informar se um número é positivo, negativo ou zero </title>
 </head>
 <body>
     <form method="POST" action=""> <!--post ENVIA dados, get BUSCA dados-->
