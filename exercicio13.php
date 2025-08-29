@@ -25,7 +25,7 @@
             }
 
             echo "$celsius graus Celsius equivalem a $fahrenheit graus fahrenheit! <br>";
-            echo "Esses amricanos amam inventar moda";
+            echo "Esses americanos amam inventar moda";
         }
     ?>
 </body>
