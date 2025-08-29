@@ -33,9 +33,9 @@
             $ano = $_POST['ano'];
             
                 if (checkdate($mes, $dia, $ano)) {
-                    echo "A data é válida!";
+                    echo "A data é <strong>válida!!</strong>";
                 } else {
-                    echo "A data é inválida!";
+                    echo "A data é <strong>inválida!!</strong>";
                 }
             }
         }
