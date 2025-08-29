@@ -28,8 +28,15 @@
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['data'])) {
+            $dia = $_POST['dia'];
+            $mes = $_POST['mes'];
+            $ano = $_POST['ano'];
             
-            echo "socorro não consegui";
+                if (checkdate($mes, $dia, $ano)) {
+                    echo "A data é válida!";
+                } else {
+                    echo "A data é inválida!";
+                }
             }
         }
     ?>
