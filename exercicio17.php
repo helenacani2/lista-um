@@ -7,8 +7,18 @@
 </head>
 <body>
     <form method="POST" action="">
-        <label for="numero1">Digite um número:</label>
-        <input type="number" id="numero1" name="numero1" required>
+        <label for="dia">Digite um dia:</label>
+        <input type="number" id="dia" name="dia" required>
+
+        <br>
+
+        <label for="mes">Digite um mês:</label>
+        <input type="number" id="mes" name="mes" required>
+
+        <br>
+
+        <label for="ano">Digite um ano:</label>
+        <input type="number" id="ano" name="ano" required>
 
         <br>
         
