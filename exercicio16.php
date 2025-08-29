@@ -27,7 +27,7 @@
 
             if ($idade >= 18){
                 echo "Você é obrigado a votar, $nome <br>";
-            } else if ($idade > 16 and $idade < 18) {
+            } else if ($idade >= 16 and $idade <= 18) {
                 echo "Você pode votar SE tirou o título, $nome <br>";
             } else {
                 echo "Você não pode votar ainda, $nome <br>";
