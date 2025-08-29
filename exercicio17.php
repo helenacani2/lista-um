@@ -12,12 +12,12 @@
 
         <br>
         
-        <button type="submit" name="fibonacci">Verificar</button>
+        <button type="submit" name="data">Verificar</button>
     </form>
 
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if (isset($_POST['fibonacci'])) {
+        if (isset($_POST['data'])) {
             
             echo "socorro não consegui";
             }
