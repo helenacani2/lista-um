@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 12 - Vogais </title>
+    <title>Exercício 12 - Vogais</title>
 </head>
 <body>
     <form method="POST" action="">

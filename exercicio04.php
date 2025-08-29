@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 4 - Fatorial </title>
+    <title>Exercício 4 - Fatorial</title>
 </head>
 <body>
     <form method="POST" action=""> <!--post ENVIA dados, get BUSCA dados-->
