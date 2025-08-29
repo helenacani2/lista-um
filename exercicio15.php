@@ -12,7 +12,7 @@
 
         <br>
 
-        <label for="numero2">Digite sua altura em metros:</label>
+        <label for="numero2">Digite sua altura em centímetros:</label>
         <input type="number" id="numero2" name="numero2" required>
         
         <button type="submit" name="imc">Verificar</button>
@@ -23,10 +23,11 @@
         if (isset($_POST['imc'])) {
 
             $peso = $_POST['numero1'];
-            $altura = $_POST['numero2'];
+            $alturacm = $_POST['numero2'];
+            $alturam = ($alturacm/100);
             $resultado = 0;
 
-            $resultado = (($peso)/($altura*$altura));
+            $resultado = (($peso)/($alturam*$alturam));
 
             if ($resultado < 18.5){
                 echo "Você está <strong>ABAIXO</strong> do peso! <br>";
